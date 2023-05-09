@@ -8,27 +8,26 @@
     border-radius: 4px;
     cursor: pointer;
     transition: all .3s;
+    &_bordered {
+        background: $color-light;
+        border: 1px solid $color-border;
+        color: $color-text;
+        &:hover {
+            background: $color-hovered;
+            border-color:$color-hovered;
+        }
+    }
+    &_colored {
+        background: $color-primary;
+        color: $color-light;
+        border: 1px solid $color-primary;
+        &:hover {
+            background: $color-aditional;
+            border-color: $color-aditional;
+        }
+    }
 }
 
-.button_bordered {
-    background: $color-light;
-    border: 1px solid $color-border;
-    color: $color-text;
-}
-
-.button_colored {
-    background: $color-primary;
-    color: $color-light;
-    border: 1px solid $color-primary;
-}
-.button_colored:hover {
-    background: $color-aditional;
-    border-color: $color-aditional;
-}
-.button_bordered:hover {
-    background: $color-hovered;
-    border-color:$color-hovered;
-}
 
 .header__buttons>.button {
     margin-left: 14px;

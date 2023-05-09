@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/FazliakhmetovAmir/live_coding_repeat/issues"
   },
-  "homepage": "https://github.com/FazliakhmetovAmir/live_coding_repeat#readme"
+  "homepage": "https://github.com/FazliakhmetovAmir/live_coding_repeat#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

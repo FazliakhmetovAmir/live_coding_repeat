@@ -1,13 +1,19 @@
+
+//abstract
+@import "abstract/mixins";
 @import "abstract/constants";
+@import "abstract/placeholders";
 //base
 @import "base/base";
 @import "base/buttons";
+@import "base/normalize";
 //layout
 @import "layout/wrapper";
 @import "layout/header";
 //component
 @import "component/contact-us";
 @import "component/promo";
+@import "component/navigation";
 
 
 
